@@ -1,13 +1,11 @@
 
 
-
-
 from time import sleep
 from umqtt.simple import MQTTClient
 from machine import Pin
 import ubinascii
 import _thread
-Server="192.168.1.181"
+Server="192.168.1.172"
 Client_ID="Esp32"
 topic="buton1"
 topic2="buton2"
@@ -92,6 +90,9 @@ def subscribe():
     sleep(0.0001)
 
 _thread.start_new_thread(subscribe, ())
+
+
+
 
 
 
