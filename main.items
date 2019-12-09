@@ -1,0 +1,1 @@
+switch itemname "itemlabel"  {mqtt=">[ClientID:Topic:command:ON:1],>[ClientID:Topic:command:OFF:0],<[ClientID:Topic:state:ON:1],<[ClientID:Topic:state:OFF:0]"}
